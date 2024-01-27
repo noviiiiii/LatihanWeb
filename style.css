@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: saddlebrown;
+    color: khaki;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+header {
+    font-size: 1.5rem;
+}
+header nav {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: khaki;
+    color: saddlebrown;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header nav img {
+    width: 5%;
+}
+header nav ul {
+display: flex;
+list-style: none;
+}
+header nav ul li {
+    padding: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+header nav ul li a:hover {
+    color: aquamarine;
+}
+
+.gambar {
+    display: inline;
+    width: 300px;
+}
